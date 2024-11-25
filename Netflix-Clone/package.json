@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mizanbeyene-github.io/Netflix-Clone",
+  "homepage": "https://mizanbeyene.github.io/Netflix-Clone",
   "name": "netflix-clone",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy":"npm run build",
-    "deploy":"git pages -4 build",
+    "deploy":"gh- pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
